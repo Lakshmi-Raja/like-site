@@ -1,0 +1,128 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.back
+{
+    background-image: url(backgro4.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.back::before
+{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(45, 58, 75, 0.9);
+}
+.nav
+{
+    height: 100vh;
+    width: 100px;
+    background-color: rgb(73, 104, 128);
+    position: fixed;
+    top: 0;
+}
+.nav i
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    padding: 50px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.nav i:hover
+{
+    background-color: orangered;
+}
+.box
+{
+    height: 500px;
+    width: 60%;
+    background-color: rgb(111, 141, 167, 0.4);
+    position: absolute;
+    left: 20%;
+}
+h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+.box1
+{
+    height: 400px;
+    width: 35%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    border: 0px  solid;
+    background: rgb(111, 141, 167, 0.2);
+}
+.align
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+.box2
+{
+   padding: 10px; 
+   width: 300px;
+   background-color: rgb(136, 161, 180);
+   color: white;
+   border: 0px;
+} 
+.box3
+{
+   padding: 10px; 
+   width: 300px;
+   background-color: rgb(136, 161, 180);
+   color: white;
+   border: 0px;
+} 
+.box4
+{
+   padding: 10px; 
+   width: 300px;
+   background-color: rgb(136, 161, 180);
+   color: white;
+   border: 0px;
+   height: 120px;
+   text-align: left;
+   border-color: transparent;
+}
+button
+{
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+    width: 130px;
+    border: 0px;
+}
+button:hover
+{
+    background-color: transparent;
+    color: orangered;
+}
+.bottom
+{
+    color: white;
+    bottom: 10px;
+    position: fixed;
+}

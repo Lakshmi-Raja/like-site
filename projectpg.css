@@ -1,0 +1,183 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.behind
+{
+    background-image: url(background5.avif);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.behind::before
+{
+    content: "";
+    position: absolute;    
+    height: 100%;
+    width: 100%;
+    background: rgba(45, 58, 75, 0.9);
+}
+a{
+    text-decoration: none;
+}
+.nav
+{
+    height: 100vh;
+    width: 100px;
+    background-color: rgb(73, 104, 128);
+    color: white;
+    position: fixed;
+}
+.nav i
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 50px;
+    font-size: 27px;
+    height: 30px;
+    justify-content: center;
+    align-items: center ;
+    color: white;
+}
+.nav i:hover
+{
+    background-color: orangered;
+}
+.box
+{
+    height: 100vh;
+    width: 60%;
+    position: absolute;
+    background-color: rgb(111, 141, 167, 0.4);
+    left: 20%;
+    color: white;
+} 
+h1
+{
+    text-align: center;
+}  
+.temp
+{
+    height: 300px;
+    width: 1000px;
+    position: relative;
+    top: 30%;
+    left: 15%;
+    border: 0px solid;
+} 
+.temp .img
+{
+    display: flex;
+    flex-direction: row;
+}
+.box2
+{
+    position: absolute;
+    left: 350px;
+}
+.box3
+{
+    position: absolute;
+    left: 700px;
+}
+.pro1
+{
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    left: 17%;
+    bottom: 40px;
+    font-size: 15px;
+    padding: 15px;
+    letter-spacing: 1px;
+}
+h2
+{
+    text-decoration: underline;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 100;
+}
+button
+{
+    padding: 10px;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    font-size: 12px;
+    background-color: orangered;
+    border: 0px;
+    color: white;
+}
+button:hover
+{
+    background-color: transparent;
+    color: orangered;
+}
+.pro2
+{
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    left: 350px;
+    top: 0%;
+    bottom: 40px;
+    font-size: 15px;
+    padding: 15px;
+    letter-spacing: 1px;
+}
+h2
+{
+    text-decoration: underline;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 100;
+}
+button
+{
+    padding: 10px;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    font-size: 12px;
+    background-color: orangered;
+    border: 0px;
+    color: white;
+}
+.pro3
+{
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    left: 360px;
+    top: 0%;
+    bottom: 40px;
+    font-size: 15px;
+    padding: 15px;
+    letter-spacing: 1px;
+}
+h2
+{
+    text-decoration: underline;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 100;
+}
+button
+{
+    padding: 10px;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    font-size: 12px;
+    background-color: orangered;
+    border: 0px;
+    color: white;
+}
